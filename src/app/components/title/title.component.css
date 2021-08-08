@@ -1,7 +1,15 @@
-body {
-    background-color: blueviolet;
+header {
+    max-width: 1000px;
+    text-align: center;
+    margin: 0 auto ;
 }
 
 h1 {
     background-color: burlywood;
+}
+
+p {
+    color: blueviolet;
+    text-transform: uppercase;
+    font-size: 16px;
 }

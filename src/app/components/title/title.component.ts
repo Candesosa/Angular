@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-title',
@@ -8,6 +8,12 @@ import { Component, OnInit } from '@angular/core';
 export class TitleComponent implements OnInit {
 
   constructor() { }
+
+  //Titulo = "Titulo h1"
+  //Subtitulo = "Subtitulo h1"
+
+  @Input() title = 'Contenido';
+  @Input() subtitle?: string; 
 
   ngOnInit(): void {
   }
